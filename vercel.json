@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "name": "portfolio-website",
+    "builds": [
+        {
+            "src": "vite.config.js",
+            "use": "@vite/vercel"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/index.html"
+        }
+    ]
+}
